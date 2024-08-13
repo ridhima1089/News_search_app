@@ -1,4 +1,5 @@
-const apiKey = '25324631c27e4e8dab0fa993a5c425de';
+const apiKey = process.env.NEXT_PUBLIC_API_KEY;
+
 const blogContainer = document.getElementById("blog-container");
 const searchField = document.getElementById("search-input");
 const searchButton = document.getElementById("search-button");
